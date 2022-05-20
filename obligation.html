@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100;1,300&display=swap" rel="stylesheet">
+    <title>The obligation - list</title>
+</head>
+<body>
+    <nav>
+        <label class="logo"><a href="index.html">back to home</a></label>
+        <div><h3><span id="my">My</span><span id="obligation">Obligation</span>List</h3></div>
+      </nav>
+	<div class="container">
+		<div class="row">
+                <div class="text2">
+                	<h3><span id="my2">My</span><span id="obligation2">Obligation</span>List</h3>
+                </div>
+		</div>
+		<div class="row">
+			<div class="helpText col-12">
+				<p id="first">Enter text into the input field to add a duty to your list. Click Enter</p>
+				<p id="second">When done with the duty, Click the duty in the list to mark it as complete</p>
+				<p id="third">Click the "X" to remove the duty from your list.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div>
+				<input id="userInput" type="text" placeholder="Give me a duty you are yet to do ..." maxlength="25">
+				<button id="enter" type="button">Enter</button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="obligation.js"></script>
+</body>
+</html>
